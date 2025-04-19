@@ -8,7 +8,7 @@
  * @author carlamorales
  */
 public class CM_Circulo {
-    
+
     int Id;
     double Radio;
     String color;
@@ -46,6 +46,22 @@ public class CM_Circulo {
 
     public void setColor(String color) {
         this.color = color;
+    }
+    
+    
+    @Override
+    public String toString() {
+        StringBuilder sb = new StringBuilder();
+        sb.append("CM_Circulo{");
+        sb.append('}');
+        return sb.toString();
+    }
+
+    // calcular el area del circulo
+    public double calcularAreaCirculo() {
+        double radio1 = this.getRadio();
+        double area2 = radio1 * 3.14;
+        return area2;
     }
     
 }

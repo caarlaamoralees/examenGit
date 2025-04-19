@@ -58,4 +58,19 @@ public class CM_Rectangulo {
         this.Color = Color;
     }
     
+    
+    @Override
+    public String toString() {
+        return "CM_Rectangulo{" + "id=" + id + ", ladoA=" + ladoA + ", ladoB=" + ladoB + ", Color=" + Color + '}';
+    }
+
+    // calcula el area del rectangulo
+    public double calcularAreaRectangulo() {
+        double ladoA = this.getLadoA();
+        double ladoB = this.getLadoB();
+        double area1 = ladoA * ladoB;
+        return area1;
+
+    }
+    
 }

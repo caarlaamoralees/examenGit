@@ -12,6 +12,7 @@ import cm_circulo.CM_Rectangulo;
  * @author carlamorales
  */
 public class Main {
+    
     public static void main(String[] args){
         
     // instanciamos un cuadrado y un circulo
@@ -44,5 +45,19 @@ public class Main {
     System.out.println("Diferencia: "+ diferencia);
     
     } 
+
+    // calcular la diferencia de las areas
+    public static double calcularDiferenciaAreas(double area1, double area2){
+        double diferencia = area1 - area2;
+        return diferencia;
     
+    }
+    
+    
+    // imprimir los valores que son da la diferencia de las areas
+    public static void printValues(double areaRectangulo, double areaCirculo, double diferencia){
+        System.out.println("Area rectangulo: " + areaRectangulo);
+        System.out.println("Area circulo: " + areaCirculo);
+        System.out.println("Diferencia de las areas: " + diferencia);
+    }  
 }
