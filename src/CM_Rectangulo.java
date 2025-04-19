@@ -6,6 +6,7 @@
 /**
  *
  * @author carlamorales
+ * @version 1.0
  */
 public class CM_Rectangulo {
     

@@ -10,6 +10,7 @@ import cm_circulo.CM_Rectangulo;
 /**
  *
  * @author carlamorales
+ * @version 1.0
  */
 public class Main {
     
